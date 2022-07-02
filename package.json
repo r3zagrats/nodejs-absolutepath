@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin",
+    "start": "nodemon --exec babel-node --config-file ./babel.config.json ./bin",
     "dev": "nodemon --exec babel-node --config-file ./babel.config.json ./bin"
   },
   "dependencies": {
